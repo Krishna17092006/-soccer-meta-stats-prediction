@@ -23,7 +23,7 @@ manual download needed. Includes full-time results, shot counts, and closing bet
 2. Engineer two feature sets, both leakage-free (every feature for a match uses only information
    available strictly before kickoff):
    - **Baseline**: rolling averages (last 5 games) of each team's own raw goals/shots.
-   - **Meta-statistics**: Elo rating difference, weighted recent form, goal-difference trend,
+   - **Meta-statistics**: Elo rating difference, recent form, goal-difference trend,
      rest-day difference, head-to-head home win rate, market-implied win/draw/loss probability.
 3. Chronological train/test split — train on the first 5 seasons, test on the most recent
    (2024/25) season held out.
